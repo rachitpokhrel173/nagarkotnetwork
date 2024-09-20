@@ -164,3 +164,22 @@
   }
   
 }
+
+
+
+ 
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .news-content img {
+      width: 90%;
+    }
+  
+    .news-section h2 {
+      font-size: 20px;
+    }
+  
+    .news-content p {
+      font-size: 14px;
+    }
+  }
+  
