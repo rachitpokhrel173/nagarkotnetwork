@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"
+        integrity="sha512-HHsOC+h3najWR7OKiGZtfhFIEzg5VRIPde0kB0bG2QRidTQqf+sbfcxCTB16AcFB93xMjnBIKE29/MjdzXE+qw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobileview.css">
+    <link rel="stylesheet" href="topbarheader.css">
+    <link rel="icon" href="title-logo.png" type="image/x-icon">
+    <title>Nagarkot Network</title>
+</head>
+
+<body>
+    <div class="top-bar" id="topBar">
+        <div class="time" id="clock">
+            <span id="timeText">Loading time...</span>
+        </div>
+        <div class="logo">
+            <a href="#home"><img src="networknagarkot-logo.jpg" alt="Logo"></a>
+        </div>
+        <div class="language-toggle">
+            <button id="language-btn">
+                <a href="english.html"><span id="english-text">English</span></a>
+            </button>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="logo" style="visibility: hidden;">
+            NAH
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#news"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href="#news">समाचार</a></li>
+                <li><a href="#politics">राजनीति</a></li>
+                <li><a href="#finance">अर्थ/वाणिज्य</a></li>
+                <li><a href="#education">शिक्षा</a></li>
+                <li><a href="#entertainment">मनोरन्जन</a></li>
+                <li><a href="#techNews">प्रविधि</a></li>
+                <li><a href="#health">स्वास्थ्य</a></li>
+                <li><a href="#security/crime">सुरक्षा/ अपराध</a></li>
+                <li><a href="#sportsNews">खेलकुद</a></li>
+            </ul>
+            <div class="bar">
+                <i class="open fa-solid fa-bars-staggered"></i>
+                <i class="close fa-solid fa-xmark"></i>
+            </div>
+
+
+            <!--==================== SEARCH ====================-->
+            <div class="search" id="search">
+                <form action="/search" class="search__form" target="_blank">
+                    <i class="ri-search-line search__icon"></i>
+                    <input type="search" placeholder="यहाँ खोज्नुहोस्.." class="search__input">
+                </form>
+                <i class="ri-close-line search__close" id="search-close"></i>
+            </div>
+
+
+        </nav>
+    </div>
+    <div class="topHeadlines" id="news">
+        <div class="left">
+            <div class="title">
+                <h2>मुख्य समाचार</h2>
+            </div>
+            <div class="img" id="breakingImg">
+                <img src="https://lktcdn.prixacdn.net/media/Kp_Sharma_Oli_2_oDQxfyjI8v.jpg" alt="">
+            </div>
+
+            <div class="text" id="breakingNews">
+                <div class="title">
+                    <a href="#">
+                        <h2>प्रधानमन्त्री ओली आज न्यूयोर्क प्रस्थान गर्दै, १० गते राष्ट्रसंघको महासभालाई सम्बोधन
+                            गर्ने...</h2>
+                    </a>
+                </div>
+                <div class="description">प्रधानमन्त्री केपी शर्मा ओली आज संयुक्त राज्य अमेरिका प्रस्थान गर्दै छन् ।
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="title">
+                <h2>ताजा समाचार</h2>
+            </div>
+            <div class="topNews">
+                <div class="news">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/un_assembly_CIEeTuQgXi.webp.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#">प्यालेस्टिनी भूभागबाट इजरायल हट्नुपर्ने प्रस्ताव राष्ट्रसंघबाट पारित...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/khilraj_regmi_INVC5Ea6RF.jpg.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#">संविधान कानूनी ढाँचा मात्र होइन, आदर्श र सिद्धान्तहरूको प्रतिबिम्ब हो:
+                                पूर्वअध्यक्ष रेग्मी...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/koshi_eye_fQmHJLKCUf.jpg.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#">कोशीका पुरुषभन्दा महिलामा आँखासम्बन्धी स्वास्थ्य समस्या बढी...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/Paddy-Field_r7CjRzwwfF.jpg.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#">पाकेको धानमा वर्षा र हुरीले क्षति पुर्‍याएपछि किसान चिन्तित...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/ram_chandra_poudel_ufPoOEL1at.jpg.800x630_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#">संविधान दिवसमा राष्ट्रपतिले गरे रात्रिभोजको आयोजना...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/champions_league_ciZkpFXDtS.png.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#">आर्सनल हारबाट जोगिँदा बार्सिलोना मोनाकोसँग पराजित...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news">
+                    <div class="img">
+                        <a href=""> <img src="https://lktcdn.prixacdn.net/media/lebnan_INMuL7JSBO.webp" alt=""></a>
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#">लेबनानमा सञ्चार उपकरण विस्फोटको दोस्रो लहर: हिजबुल्लाह समूह अस्तव्यस्त</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/humla_OWJjYatReV.JPG.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#">हुम्लामा खाद्यान्नमा सहुलियत, प्रतिकेजी पाँच रुपैयाँ छुट...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/palesa3_a7f7IJgWE9.jpeg.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#">पलेशासहित पारा खेलाडीलाई एनसेलले गर्‍यो नगद पुरस्कारसहित सम्मान...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="page2">
+        <div class="news" id="politics">
+            <div class="title">
+                <h2>राजनीति</h2>
+            </div>
+            <div class="newsBox">
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/prakash_sharan_mahat_u8LUeWXLp8.jpg.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p>संविधान संशोधन जनताको सुझाव र सर्वपक्षीय सहमतिमाः कांग्रेस प्रवक्ता महत</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/Prachanda_Maoist_Center_4_MGiruiJ7dT.jpg.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p>माओवादी बैठकमा अखिल क्रान्तिकारीको महाविधेशनबारे छलफल</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/Sherbahadur_Deuba_yKkhscJYdR.png.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p>संविधानले सबैको हकअधिकार सुनिश्चित गरेको छः देउवा</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/Parliament_samsad_B5Vmqlg4K2.jpg.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p>संसद् भवन अगाडिबाट ७ जना पक्राउ</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img
+                                src="https://lktcdn.prixacdn.net/media/uml_party_office_8NB0aTmV5G.jpg.585x360_q70_crop.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p>एमालेको अधिवेशनमा प्यानल बनाउन नपाइने</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news" id="finance">
+            <div class="title">
+                <h2>अर्थ/वाणिज्य</h2>
+            </div>
+            <div class="newsBox">
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news" id="education">
+            <div class="title">
+                <h2>शिक्षा</h2>
+            </div>
+            <div class="newsBox">
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news" id="entertainment">
+            <div class="title">
+                <h2>मनोरन्जन</h2>
+            </div>
+            <div class="newsBox">
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news" id="techNews">
+            <div class="title">
+                <h2>प्रविधि</h2>
+            </div>
+            <div class="newsBox">
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news" id="health">
+            <div class="title">
+                <h2>स्वास्थ्य</h2>
+            </div>
+            <div class="newsBox">
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news" id="security/crime">
+            <div class="title">
+                <h2>सुरक्षा/ अपराध</h2>
+            </div>
+            <div class="newsBox">
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news" id="sportsNews">
+            <div class="title">
+                <h2>खेलकुद</h2>
+            </div>
+            <div class="newsBox">
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newsCard">
+                    <div class="img">
+                        <a href=""> <img src="" alt=""></a>
+                    </div>
+                    <div class="title">
+                        <a href="#" style="text-decoration: none;">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="box">
+            <div class="left">
+                <div class="categories">
+                    <p>Categories</p>
+                    <div>
+                        <p>समाचार</p>
+                    </div>
+                    <div>
+                        <p>राजनीति</p>
+                    </div>
+                    <div>
+                        <p>शिक्षा</p>
+                    </div>
+                    <div>
+                        <p>प्रविधि</p>
+                    </div>
+                    <div>
+                        <p>खेलकुद</p>
+                    </div>
+                </div>
+                <div class="contactUs">
+                    <div class="contact">
+                        <p>Contact Us</p>
+                        <div>Phone No. - <span>9861466642</span></div>
+                        <div>Email - <span>nagarkotnetwork@gmail.com</span></div>
+                        <div>Address - <span>Kathmandu, Nepal</span></div>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/profile.php?id=100093968808553" target="_blank"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="newsletter">
+                    <p>Subscribe to Our Newsletter</p>
+                    <div class="email">
+                        <input type="email" placeholder="Enter Your Email Here">
+                        <button>Subscribe</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            Copyrights &copy; 2024 Nagarkot Network | All rights reserved.
+        </div>
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
