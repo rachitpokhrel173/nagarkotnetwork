@@ -432,3 +432,59 @@ nav ul li a{
   }
  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* Thumbnails Section */
+.thumbnails-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 13px;
+    transform: translateX(2%);
+}
+
+.thumbnail {
+    flex: 1;
+    min-width: 200px;
+    background-color: #25252A;
+    padding: 10px;
+    border: 2px solid #ddd;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail h3 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.thumbnail:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .thumbnails-section {
+        flex-direction: column;
+    }
+}
+
