@@ -202,3 +202,18 @@ searchBtn.addEventListener('click', () =>{
 searchClose.addEventListener('click', () =>{
    search.classList.remove('show-search')
 })
+
+
+
+
+
+
+
+
+function showPopup() {
+    document.getElementById('popup').style.display = 'block';
+}
+
+function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+}

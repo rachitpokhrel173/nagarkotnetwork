@@ -183,3 +183,33 @@
     }
   }
   
+
+
+  /* Responsive Design */
+@media (max-width: 1024px) {
+    .main-news-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-image img {
+        width: 90%;
+    }
+
+    .news-items {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .small-news-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .small-news-container {
+        grid-template-columns: 1fr;
+    }
+}
