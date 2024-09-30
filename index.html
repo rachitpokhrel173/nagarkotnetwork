@@ -39,6 +39,7 @@
             <ul>
                 <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
                 <li><a href="#news">समाचार</a></li>
+                <li><a href="#notice">जानकरी</a></li>
                 <li><a href="#politics">राजनीति</a></li>
                 <li><a href="#finance">अर्थ/वाणिज्य</a></li>
                 <li><a href="#education">शिक्षा</a></li>
@@ -286,23 +287,36 @@
                 </div>
                 
             </div>
+        </div>
         </section>
+    
+
+        <h1 id="notice">महत्वपूर्ण जानकरी</h1>
+
+
+    <section class="notice-board" id="">
+       
+        <div class="notice-image">
+            <img src="imp.jpeg" alt="Notice 1" class="board-img" onclick="openPopup(this)">
+        </div>
+        <div class="notice-image">
+            <img src="imp2.jpeg" alt="Notice 2" class="board-img" onclick="openPopup(this)">
+        </div>
+        <div class="notice-image">
+            <img src="imp3.jpeg" alt="Notice 3" class="board-img" onclick="openPopup(this)">
+        </div>
+        <div class="notice-image">
+            <img src="imp4.jpeg" alt="Notice 4" class="board-img" onclick="openPopup(this)">
+        </div>
+        
+    </section>
+
+    <!-- Popup Modal for Notice -->
+    <div id="popup" class="popup">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <img id="popup-img" src="" alt="Notice">
     </div>
 
-
-
-    <section class="notice-board">
-        <h2>महत्वपूर्ण जानकरी</h2>
-        <div class="notice-board-container">
-            <div class="notice-board-item">
-                <img src="imp.jpeg" alt="News 1" >
-               
-            </div>
-            <div class="notice-board-item">
-                <img src="im.jpeg" alt="News 2">
-                
-            </div>
-        </div>
     </section>
 
 
@@ -830,10 +844,7 @@
         <div class="box">
             <div class="left">
                 <div class="categories">
-                    <p>Categories</p>
-                    <div>
-                        <p>प्रविधि</p>
-                    </div>
+                    <p style="font-weight: bold; font-size: 22;">वर्ग</p>
                     <div>
                         <p>समाचार</p>
                     </div>
@@ -843,14 +854,17 @@
                     <div>
                         <p>शिक्षा</p>
                     </div>
-                    
+                    <div>
+                        <p>प्रविधि</p>
+                    </div>
                     <div>
                         <p>खेलकुद</p>
                     </div>
                 </div>
+                
                 <div class="contactUs">
                     <div class="contact">
-                        <p>Contact Us</p>
+                        <p style="font-weight: bold; font-size: 22;">सम्पर्क गर्नुहोस्</p>
                         <div>Phone No. - <span>9861466642</span></div>
                         <div>Email - <span>nagarkotnetwork@gmail.com</span></div>
                         <div>Address - <span>Kathmandu, Nepal</span></div>
@@ -865,17 +879,16 @@
             </div>
             <div class="right">
                 <div class="newsletter">
-                    <p>Subscribe to Our Newsletter</p>
-                    <div class="email">
-                        <input type="email" placeholder="Enter Your Email Here">
-                        <button>Subscribe</button>
-
-                    </div>
+                    <p style="font-weight: bold; font-size: 22;">दर्ता</p>
+                    <h1 style="font-weight: lighter; font-size: 20px;">सूचना विभाग दर्ता नम्बर: <span style="font-weight: bold;">४०४३-२०७९/८०</span><br>
+                        प्रेस काउन्सिल दर्ता नम्बर: <span style="font-weight: bold;">४१६३-२०८०/८१</span> <br>
+                        प्रधान सम्पादक: <span style="font-weight: bold;">सुमन दुलाल</span> <br>
+                        अध्यक्ष: <span style="font-weight: bold;">प्रदिप न्यौपाने</span></h1>
                 </div>
             </div>
         </div>
         <div class="copyrights">
-            Copyrights &copy; 2024 Nagarkot Network | All rights reserved.
+            Copyrights &copy; 2024 Nagarkot Network | All rights reserved. <br>
         </div>
     </div>
 

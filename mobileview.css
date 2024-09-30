@@ -167,8 +167,14 @@
 
 
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .thumbnails-section {
+        flex-direction: column;
+    }
+}
  
-  /* Responsive Design */
+  /* News Responsive Design */
   @media (max-width: 768px) {
     .news-content img {
       width: 90%;
@@ -185,7 +191,7 @@
   
 
 
-  /* Responsive Design */
+  /* Small News Responsive Design */
 @media (max-width: 1024px) {
     .main-news-section {
         flex-direction: column;
@@ -211,5 +217,24 @@
 @media (max-width: 480px) {
     .small-news-container {
         grid-template-columns: 1fr;
+    }
+}
+
+
+
+/*Notice Responsive Styles */
+@media (max-width: 768px) {
+    .notice-board {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .notice-image {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    h1 {
+        font-size: 18px;
     }
 }

@@ -209,11 +209,20 @@ searchClose.addEventListener('click', () =>{
 
 
 
-
-function showPopup() {
-    document.getElementById('popup').style.display = 'block';
+ // Function to open the popup
+ function openPopup(image) {
+    const popup = document.getElementById("popup");
+    const popupImg = document.getElementById("popup-img");
+    popup.style.display = "block";
+    popupImg.src = image.src;
 }
 
+// Function to close the popup
 function closePopup() {
-    document.getElementById('popup').style.display = 'none';
+    document.getElementById("popup").style.display = "none";
 }
+
+
+
+
+
