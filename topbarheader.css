@@ -8,7 +8,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  background-color: #001f3f;
+  background-color: #ffffff;
 }
 
 .top-bar .time, .top-bar .nepali-date {
@@ -16,6 +16,15 @@ header {
   align-items: center;
   font-size: 18px;
   font-weight: bold;
+}
+.time{
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .time, #language-btn{ 
+    visibility: hidden; 
+  }
 }
 
 .top-bar .logo img {

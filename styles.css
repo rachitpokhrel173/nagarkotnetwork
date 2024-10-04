@@ -388,7 +388,7 @@ nav ul li a{
   }
   
   .news-content p {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     color: #ffffff;
     text-align: center;
@@ -398,6 +398,7 @@ nav ul li a{
   }
   .news-content p:hover{
     text-decoration: underline;
+    color: rgb(245,45,45);
   }
  
 
