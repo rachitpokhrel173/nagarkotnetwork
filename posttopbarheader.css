@@ -1,0 +1,81 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #ffffff;
+}
+
+.top-bar .time, .top-bar .nepali-date {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.time{
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .time, #language-btn{ 
+    visibility: hidden; 
+  }
+}
+
+.top-bar .logo img {
+  max-width: 150rem;
+  height: auto;
+}
+
+.language-toggle {
+  display: inline-block;
+}
+
+#language-btn {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  border: 2px solid red;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#hindi-text {
+  color: red;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+#english-text {
+  color: black;
+}
+
+#language-btn:hover {
+  background-color: #ffecec;
+}
+
+
+
+
+
+
+
+
+
+
+.nav__toggle, 
+.nav__close {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: color .4s;
+}
+
+:is(.nav__search, .nav__toggle, .nav__link):hover {
+  color: var( --first-color);
+}
+

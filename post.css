@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Main Article Section */
+.article-section {
+    flex: 3;
+}
+
+/* Article Header */
+.article-header {
+    margin-bottom: 15px;
+}
+
+.category {
+    color: #ff4500;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.article-header h1 {
+    font-size: 45px;
+    color: #000000;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.author-info {
+    font-size: 24px;
+    color: #777;
+}
+
+/* Main Image */
+.main-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Article Content */
+.article-content p {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Advertisement Section */
+.ad-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Related Articles */
+.related-articles h3 {
+    font-size: 22px;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.related-articles ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.related-articles li {
+    margin-bottom: 10px;
+    padding-bottom: 10px; /* Adds space between the border and text */
+    border-bottom: 1px solid #ddd; /* Light gray border */
+}
+
+.related-articles li a {
+    color: #0171BB;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.related-articles li a:hover {
+    color: #FF6600;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 20px;
+}
